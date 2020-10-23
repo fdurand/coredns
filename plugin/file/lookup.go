@@ -3,9 +3,9 @@ package file
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin/file/rrutil"
-	"github.com/coredns/coredns/plugin/file/tree"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin/file/rrutil"
+	"github.com/fdurand/coredns/plugin/file/tree"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

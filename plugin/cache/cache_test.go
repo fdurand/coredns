@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/pkg/dnstest"
+	"github.com/fdurand/coredns/plugin/pkg/response"
+	"github.com/fdurand/coredns/plugin/test"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

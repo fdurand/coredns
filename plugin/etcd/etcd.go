@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/etcd/msg"
+	"github.com/fdurand/coredns/plugin/pkg/fall"
+	"github.com/fdurand/coredns/plugin/pkg/upstream"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 	etcdcv3 "go.etcd.io/etcd/clientv3"

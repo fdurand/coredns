@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	pkgtls "github.com/coredns/coredns/plugin/pkg/tls"
+	"github.com/fdurand/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/pkg/parse"
+	pkgtls "github.com/fdurand/coredns/plugin/pkg/tls"
 )
 
 func init() { plugin.Register("grpc", setup) }

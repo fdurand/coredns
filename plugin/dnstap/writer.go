@@ -3,7 +3,7 @@ package dnstap
 import (
 	"time"
 
-	"github.com/coredns/coredns/plugin/dnstap/msg"
+	"github.com/fdurand/coredns/plugin/dnstap/msg"
 	tap "github.com/dnstap/golang-dnstap"
 	"github.com/miekg/dns"
 )

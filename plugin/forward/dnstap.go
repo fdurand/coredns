@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/plugin/dnstap/msg"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin/dnstap/msg"
+	"github.com/fdurand/coredns/request"
 
 	tap "github.com/dnstap/golang-dnstap"
 	"github.com/miekg/dns"

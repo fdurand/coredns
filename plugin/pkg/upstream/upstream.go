@@ -5,9 +5,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin/pkg/nonwriter"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/plugin/pkg/nonwriter"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

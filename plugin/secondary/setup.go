@@ -2,11 +2,11 @@ package secondary
 
 import (
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/file"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
+	"github.com/fdurand/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/file"
+	"github.com/fdurand/coredns/plugin/pkg/parse"
+	"github.com/fdurand/coredns/plugin/pkg/upstream"
 )
 
 func init() { plugin.Register("secondary", setup) }

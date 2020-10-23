@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/coredns/coredns/pb"
+	"github.com/fdurand/coredns/pb"
 
 	"github.com/miekg/dns"
 	"google.golang.org/grpc"

@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
+	"github.com/fdurand/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/pkg/fall"
+	clog "github.com/fdurand/coredns/plugin/pkg/log"
 
 	publicAzureDNS "github.com/Azure/azure-sdk-for-go/profiles/latest/dns/mgmt/dns"
 	privateAzureDNS "github.com/Azure/azure-sdk-for-go/profiles/latest/privatedns/mgmt/privatedns"

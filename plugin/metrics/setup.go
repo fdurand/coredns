@@ -5,12 +5,12 @@ import (
 	"runtime"
 
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/coremain"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/metrics/vars"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/uniq"
+	"github.com/fdurand/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/coremain"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/metrics/vars"
+	clog "github.com/fdurand/coredns/plugin/pkg/log"
+	"github.com/fdurand/coredns/plugin/pkg/uniq"
 )
 
 var (

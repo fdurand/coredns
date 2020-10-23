@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/coredns/coredns/plugin/erratic"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/test"
+	"github.com/fdurand/coredns/plugin/erratic"
+	clog "github.com/fdurand/coredns/plugin/pkg/log"
+	"github.com/fdurand/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

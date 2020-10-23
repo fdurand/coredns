@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/file"
-	"github.com/coredns/coredns/plugin/pkg/fall"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/file"
+	"github.com/fdurand/coredns/plugin/pkg/fall"
+	"github.com/fdurand/coredns/plugin/pkg/upstream"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/route53"

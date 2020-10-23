@@ -14,10 +14,10 @@ package external
 import (
 	"context"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/etcd/msg"
+	"github.com/fdurand/coredns/plugin/pkg/upstream"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

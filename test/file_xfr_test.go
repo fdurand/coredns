@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coredns/coredns/plugin/test"
+	"github.com/fdurand/coredns/plugin/test"
 
 	"github.com/miekg/dns"
 )

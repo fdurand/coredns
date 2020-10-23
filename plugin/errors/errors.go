@@ -8,9 +8,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/coredns/coredns/plugin"
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	clog "github.com/fdurand/coredns/plugin/pkg/log"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

@@ -7,10 +7,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/etcd/msg"
-	"github.com/coredns/coredns/plugin/transfer"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/etcd/msg"
+	"github.com/fdurand/coredns/plugin/transfer"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 	api "k8s.io/api/core/v1"
@@ -63,7 +63,7 @@ func (k *Kubernetes) Transfer(zone string, serial uint32) (<-chan []dns.RR, erro
 						s.Key = strings.Join(svcBase, "/")
 
 						// Need to generate this to handle use cases for peer-finder
-						// ref: https://github.com/coredns/coredns/pull/823
+						// ref: https://github.com/fdurand/coredns/pull/823
 						ch <- []dns.RR{s.NewSRV(msg.Domain(s.Key), 100)}
 
 						// As per spec unnamed ports do not have a srv record

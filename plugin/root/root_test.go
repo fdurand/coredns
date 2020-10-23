@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/core/dnsserver"
 )
 
 func TestRoot(t *testing.T) {

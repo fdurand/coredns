@@ -1,8 +1,8 @@
 package dnssec
 
 import (
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin/pkg/response"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

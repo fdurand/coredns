@@ -1,7 +1,7 @@
 package file
 
 import (
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
+	"github.com/fdurand/coredns/plugin/pkg/dnsutil"
 
 	"github.com/miekg/dns"
 )

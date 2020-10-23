@@ -6,11 +6,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/cache"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/plugin/pkg/response"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/pkg/cache"
+	"github.com/fdurand/coredns/plugin/pkg/dnsutil"
+	"github.com/fdurand/coredns/plugin/pkg/response"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

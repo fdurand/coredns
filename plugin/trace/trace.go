@@ -7,12 +7,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/rcode"
-	_ "github.com/coredns/coredns/plugin/pkg/trace" // Plugin the trace package.
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/pkg/dnstest"
+	"github.com/fdurand/coredns/plugin/pkg/log"
+	"github.com/fdurand/coredns/plugin/pkg/rcode"
+	_ "github.com/fdurand/coredns/plugin/pkg/trace" // Plugin the trace package.
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 	ot "github.com/opentracing/opentracing-go"

@@ -4,10 +4,10 @@ import (
 	"crypto/tls"
 
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/core/dnsserver"
-	"github.com/coredns/coredns/plugin"
-	mwtls "github.com/coredns/coredns/plugin/pkg/tls"
-	"github.com/coredns/coredns/plugin/pkg/upstream"
+	"github.com/fdurand/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/plugin"
+	mwtls "github.com/fdurand/coredns/plugin/pkg/tls"
+	"github.com/fdurand/coredns/plugin/pkg/upstream"
 
 	etcdcv3 "go.etcd.io/etcd/clientv3"
 )

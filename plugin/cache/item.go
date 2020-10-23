@@ -3,7 +3,7 @@ package cache
 import (
 	"time"
 
-	"github.com/coredns/coredns/plugin/cache/freq"
+	"github.com/fdurand/coredns/plugin/cache/freq"
 	"github.com/miekg/dns"
 )
 

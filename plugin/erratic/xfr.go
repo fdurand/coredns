@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/coredns/coredns/plugin/test"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin/test"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )

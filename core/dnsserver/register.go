@@ -9,10 +9,10 @@ import (
 
 	"github.com/coredns/caddy"
 	"github.com/coredns/caddy/caddyfile"
-	"github.com/coredns/coredns/plugin"
-	"github.com/coredns/coredns/plugin/pkg/dnsutil"
-	"github.com/coredns/coredns/plugin/pkg/parse"
-	"github.com/coredns/coredns/plugin/pkg/transport"
+	"github.com/fdurand/coredns/plugin"
+	"github.com/fdurand/coredns/plugin/pkg/dnsutil"
+	"github.com/fdurand/coredns/plugin/pkg/parse"
+	"github.com/fdurand/coredns/plugin/pkg/transport"
 )
 
 const serverType = "dns"

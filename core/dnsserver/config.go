@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/coredns/caddy"
-	"github.com/coredns/coredns/plugin"
+	"github.com/fdurand/coredns/plugin"
 )
 
 // Config configuration for a single server.

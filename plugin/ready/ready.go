@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"sync"
 
-	clog "github.com/coredns/coredns/plugin/pkg/log"
-	"github.com/coredns/coredns/plugin/pkg/reuseport"
-	"github.com/coredns/coredns/plugin/pkg/uniq"
+	clog "github.com/fdurand/coredns/plugin/pkg/log"
+	"github.com/fdurand/coredns/plugin/pkg/reuseport"
+	"github.com/fdurand/coredns/plugin/pkg/uniq"
 )
 
 var (

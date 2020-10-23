@@ -3,8 +3,8 @@
 package forward
 
 import (
-	"github.com/coredns/coredns/plugin/pkg/dnstest"
-	"github.com/coredns/coredns/plugin/pkg/fuzz"
+	"github.com/fdurand/coredns/plugin/pkg/dnstest"
+	"github.com/fdurand/coredns/plugin/pkg/fuzz"
 
 	"github.com/miekg/dns"
 )

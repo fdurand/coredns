@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/coredns/coredns/plugin/pkg/log"
+	"github.com/fdurand/coredns/plugin/pkg/log"
 
 	"github.com/miekg/dns"
 )

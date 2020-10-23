@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coredns/coredns/plugin/metadata"
-	"github.com/coredns/coredns/plugin/pkg/edns"
-	"github.com/coredns/coredns/request"
+	"github.com/fdurand/coredns/plugin/metadata"
+	"github.com/fdurand/coredns/plugin/pkg/edns"
+	"github.com/fdurand/coredns/request"
 
 	"github.com/miekg/dns"
 )
