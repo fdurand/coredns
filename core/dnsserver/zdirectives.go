@@ -38,6 +38,7 @@ var Directives = []string{
 	"autopath",
 	"template",
 	"transfer",
+	"pfdns",
 	"hosts",
 	"route53",
 	"azure",

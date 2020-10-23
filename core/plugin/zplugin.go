@@ -49,4 +49,5 @@ import (
 	_ "github.com/fdurand/coredns/plugin/trace"
 	_ "github.com/fdurand/coredns/plugin/transfer"
 	_ "github.com/fdurand/coredns/plugin/whoami"
+	_ "github.com/fdurand/coredns/plugin/pfdns"
 )
