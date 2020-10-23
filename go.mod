@@ -1,4 +1,4 @@
-module github.com/coredns/coredns
+module github.com/fdurand/coredns
 
 go 1.13
 
