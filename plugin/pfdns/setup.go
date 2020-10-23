@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/inverse-inc/packetfence/go/coredns/core/dnsserver"
-	"github.com/inverse-inc/packetfence/go/coredns/plugin"
+	"github.com/coredns/caddy"
+	"github.com/fdurand/coredns/core/dnsserver"
+	"github.com/fdurand/coredns/plugin"
 	"github.com/inverse-inc/packetfence/go/pfconfigdriver"
 	"github.com/inverse-inc/packetfence/go/timedlock"
 	"github.com/inverse-inc/packetfence/go/unifiedapiclient"
-	"github.com/caddyserver/caddy"
-	cache "github.com/inverse-inc/go-cache"
+	cache "github.com/patrickmn/go-cache"
 )
 
 func init() {
