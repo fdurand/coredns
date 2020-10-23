@@ -11,7 +11,7 @@ import (
 	"github.com/inverse-inc/packetfence/go/pfconfigdriver"
 	"github.com/inverse-inc/packetfence/go/timedlock"
 	"github.com/inverse-inc/packetfence/go/unifiedapiclient"
-	"github.com/caddy/caddy"
+	"github.com/caddyserver/caddy"
 	cache "github.com/inverse-inc/go-cache"
 )
 
